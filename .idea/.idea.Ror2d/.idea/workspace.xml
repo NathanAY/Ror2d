@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1b95d26a-6be0-49f6-ac3b-ac5b6fc8fd64" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -8,11 +17,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/ca/9dcb3782/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Programs/Unity/Projects/Ror2d/Assets/Textures/Grounds/FloorTile 1.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Programs/Unity/Projects/Ror2d/Assets/Scenes/GameScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/78/f263a934/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Programs/Unity/Projects/Ror2d/Assets/Imported/Ignored/Cartoon_Texture_Pack/_MaterialLibrary/Cartoon_Texture_Presentation.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18652B59-14B1-4E07-A740-76A4608F13E3/60/2ef8c8ab/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/18/206b2f08/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -24,19 +42,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MovementJoystick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PurpleBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttackManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1lYwEPB2uD12YryyzCQu0qhu308" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,8 +96,74 @@
       <workItem from="1607810742742" duration="3600000" />
       <workItem from="1607849344714" duration="1691000" />
       <workItem from="1607875286164" duration="4000" />
-      <workItem from="1607880483195" duration="8007000" />
+      <workItem from="1607880483195" duration="8549000" />
+      <workItem from="1608403826897" duration="2032000" />
+      <workItem from="1608406555014" duration="312000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1607891339321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607891339321</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add ignore folder">
+      <created>1608404953951</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608404953951</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add ignore folder">
+      <created>1608405004818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608405004818</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add ignore folder">
+      <created>1608405150536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608405150536</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add ignore folder">
+      <created>1608405281461</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608405281461</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add gitignore folder">
+      <created>1608405808634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608405808634</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add Some textures">
+      <created>1608406644028</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608406644028</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cm">
+      <created>1608406785396</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608406785396</updated>
+    </task>
+    <task id="LOCAL-00009" summary="cm">
+      <created>1608408636038</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608408636038</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,14 +171,74 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add ignore folder" />
+    <MESSAGE value="Add gitignore folder" />
+    <MESSAGE value="Add Some textures" />
+    <MESSAGE value="Cm" />
+    <MESSAGE value="cm" />
+    <option name="LAST_COMMIT_MESSAGE" value="cm" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2001" y="159" width="1596" height="988" key="CommitChangelistDialog2" timestamp="1608408629070">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2001" y="159" width="1596" height="988" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608408629070" />
+    <state x="2012" y="92" width="1736" height="976" key="DiffContextDialog" timestamp="1608407998929">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2012" y="92" width="1736" height="976" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608407998929" />
+    <state x="2372" y="263" key="Git.Interactive.Rebase.Dialog" timestamp="1608408698913">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2372" y="263" key="Git.Interactive.Rebase.Dialog/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608408698913" />
+    <state x="2758" y="478" key="Github.ShareDialog" timestamp="1607891071191">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2758" y="478" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1607891071191" />
+    <state x="2536" y="258" key="Github.UntrackedFilesDialog" timestamp="1607891092582">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2536" y="258" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1607891092582" />
     <state x="2381" y="225" key="SettingsEditor" timestamp="1607790362015">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2381" y="225" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1607790362015" />
+    <state x="2727" y="493" key="VCS.ChangelistChooser" timestamp="1608405408511">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2727" y="493" key="VCS.ChangelistChooser/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608405408511" />
+    <state x="2472" y="313" key="Vcs.Push.Dialog.v2" timestamp="1608405008384">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2472" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608405008384" />
+    <state x="2490" y="315" key="VcsDiffUtil.ChangesDialog" timestamp="1608408659791">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2490" y="315" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608408659791" />
+    <state x="2718" y="315" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1607891268547">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2718" y="315" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1607891268547" />
+    <state x="2697" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608407221468">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2697" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608407221468" />
     <state x="2558" y="313" width="644" height="534" key="find.popup" timestamp="1607814998183">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>

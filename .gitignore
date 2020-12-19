@@ -39,3 +39,8 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 Thumbs.db
+###
+# Large files that are not currently in use
+###
+/Assets/Imported/Ignored/
+/Assets/Imported/Ignored/Cartoon_Texture_Pack/

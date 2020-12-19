@@ -13,12 +13,14 @@ public class Player : FiringUnit
     {
         Rotation();
         Attack();
+        HandleMovement();
+        JoystickMovement();
+        
     }
 
     void FixedUpdate()
     {
-        JoystickMovement();
-        HandleMovement();
+        // JoystickMovement();
     }
 
 
