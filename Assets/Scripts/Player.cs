@@ -4,26 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Player : MonoBehaviour
+public class Player : FiringUnit
 {
     public MovementJoystick movementJoystick;
     public MovementJoystick shootJoystick;
-
-    public Weapon currentWeapon;
-    public float moveSpeed = 40;
-    public float rotationSpeed = 5;
-    public bool firing;
-
-    private bool canShoot = true;
-    private Rigidbody2D rigidbody2D;
-    private Animator legAnim;
-    private float nextTimeOfFire = 0;//todo move to manager
-
-    private void Start()
-    {
-        rigidbody2D = GetComponent<Rigidbody2D>();
-        legAnim = transform.GetChild(3).GetComponent<Animator>();
-    }
 
     void Update()
     {
@@ -68,12 +52,12 @@ public class Player : MonoBehaviour
     {
         if (movementJoystick.vector.y != 0)
         {
-            rigidbody2D.velocity = new Vector2(movementJoystick.vector.x * moveSpeed, movementJoystick.vector.y * moveSpeed);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(movementJoystick.vector.x * moveSpeed, movementJoystick.vector.y * moveSpeed);
             legAnim.SetBool("Moving", true);
         }
         else
         {
-            rigidbody2D.velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             legAnim.SetBool("Moving", false);
         }
     }
