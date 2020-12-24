@@ -11,10 +11,14 @@ public class Weapon : ScriptableObject
     public int damage = 20;
     public float range = 100;
 
-    public void Shoot()
+    public void Shoot(List<AttackModifier> attackModifiers)
     {
         GameObject firePoint = GameObject.Find("FirePoint");
         GameObject direction = GameObject.Find("Dir");
+        foreach (var attackModifier in attackModifiers)
+        {
+            attackModifier.ApplyModifier(firePoint, direction, bulletPrefab, range);
+        }
         GameObject bullet = Instantiate(bulletPrefab, firePoint.transform.position, Quaternion.identity);
         bullet.GetComponent<BulletMovement>().SetupDirection(firePoint.transform.position, direction.transform.position, range);
     }

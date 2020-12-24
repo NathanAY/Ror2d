@@ -7,6 +7,7 @@ public class FiringUnit : MovingUnit
     public Weapon currentWeapon;
     public bool firing;
 
+    protected List<AttackModifier> attackModifiers = new List<AttackModifier> { new TripleShooting() };
     protected bool canShoot = true;
     protected float nextTimeOfFire = 0; //todo move to manager
 
@@ -22,7 +23,7 @@ public class FiringUnit : MovingUnit
         {
             if (Time.time >= nextTimeOfFire)
             {
-                currentWeapon.Shoot();
+                currentWeapon.Shoot(attackModifiers);
                 nextTimeOfFire = Time.time + 1 / currentWeapon.fireRate;
             }
         }

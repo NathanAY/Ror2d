@@ -30,7 +30,7 @@ public class Player : FiringUnit
         {
             if (Time.time >= nextTimeOfFire)
             {
-                currentWeapon.Shoot();
+                currentWeapon.Shoot(attackModifiers);
                 nextTimeOfFire = Time.time + 1 / currentWeapon.fireRate;
             }
         }
