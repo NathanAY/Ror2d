@@ -11,12 +11,12 @@ public class TripleShooting : AttackModifier
     
     public override void ApplyModifier(GameObject firePoint, GameObject direction, GameObject bulletPrefab, float range)
     {
-        var angle = 30;
+        var angle = 60;
         for (int i = 0; i < 2; i++)
         {
             GameObject bullet = MonoBehaviour.Instantiate(bulletPrefab, firePoint.transform.position, Quaternion.identity);
             bullet.GetComponent<BulletMovement>().SetupDirection(firePoint.transform.position, new Vector3(direction.transform.position.x + angle, direction.transform.position.y, direction.transform.position.z), range);
-            angle -= 60;
+            angle = angle * -1;
         }
     }
 }
