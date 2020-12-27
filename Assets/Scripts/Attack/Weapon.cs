@@ -18,4 +18,10 @@ public class Weapon : ScriptableObject
         GameObject bullet = Instantiate(bulletPrefab, firePoint.transform.position, Quaternion.identity);
         bullet.GetComponent<BulletMovement>().SetupDirection(firePoint.transform.position, direction.transform.position, range);
     }
+    
+    public void Shoot(Transform startPosition, Transform targetPosition)
+    {
+        GameObject bullet = Instantiate(bulletPrefab, startPosition.transform.position, Quaternion.identity);
+        bullet.GetComponent<BulletMovement>().SetupDirection(startPosition.transform.position, targetPosition.transform.position, range);
+    }
 }

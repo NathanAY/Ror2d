@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class BulletMovement : MonoBehaviour
     private float range;
     private Vector3 shootDir;
     private float proccedRange = 0;
+    public int damage = 10;
 
     public void SetupDirection(Vector3 startingPoint, Vector3 targetPoint, float range)
     {
@@ -25,6 +27,13 @@ public class BulletMovement : MonoBehaviour
         CheckToDestroy();
     }
 
+   
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        IDamageable damageable = other.gameObject.GetComponent<IDamageable>();
+        damageable?.Damage(damage);
+    }
+    
     private float CalculateEulerAngles(Vector3 dir)
     {
         dir = dir.normalized;

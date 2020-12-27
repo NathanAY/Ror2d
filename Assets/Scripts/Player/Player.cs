@@ -4,25 +4,49 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class Player : FiringUnit
+public class Player : MonoBehaviour, IDamageable
 {
+
+    public static Player Instance { get; private set; }
     public MovementJoystick movementJoystick;
     public MovementJoystick shootJoystick;
+    public Transform firePoint;
+    public Transform aimPoint;
+    public int maxHealth = 50;
+    public int currentHealth = 50;
+    
+    public float moveSpeed = 40;
+    public float rotationSpeed = 5;
+    public bool firing;
+
+    private bool canShoot = true;
+    private Rigidbody2D rigidbody2D;
+    private Animator legAnim;
+    private float nextTimeOfFire = 0;//todo move to manager
+    
+    public GameObject bulletPrefab;
+    public float fireRate = 1;
+    public int damage = 20;
+    public float range = 100;
+
+    private void Start()
+    {
+        Instance = this;
+        rigidbody2D = GetComponent<Rigidbody2D>();
+        legAnim = transform.GetChild(3).GetComponent<Animator>();
+    }
 
     void Update()
     {
         Rotation();
         Attack();
-        HandleMovement();
-        JoystickMovement();
-        
     }
 
     void FixedUpdate()
     {
-        // JoystickMovement();
+        JoystickMovement();
+        HandleMovement();
     }
-
 
     private void Attack()
     {
@@ -30,11 +54,18 @@ public class Player : FiringUnit
         {
             if (Time.time >= nextTimeOfFire)
             {
-                currentWeapon.Shoot();
-                nextTimeOfFire = Time.time + 1 / currentWeapon.fireRate;
+                CreateBullet(firePoint, aimPoint);
+                nextTimeOfFire = Time.time + 1 / fireRate;
             }
         }
-        
+    }
+
+    
+    
+    private void CreateBullet(Transform startPosition, Transform targetPosition)
+    {
+        GameObject bullet = Instantiate(bulletPrefab, startPosition.transform.position, Quaternion.identity);
+        bullet.GetComponent<BulletMovement>().SetupDirection(startPosition.transform.position, targetPosition.transform.position, range);
     }
     
     private void Rotation()
@@ -54,12 +85,12 @@ public class Player : FiringUnit
     {
         if (movementJoystick.vector.y != 0)
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(movementJoystick.vector.x * moveSpeed, movementJoystick.vector.y * moveSpeed);
+            rigidbody2D.velocity = new Vector2(movementJoystick.vector.x * moveSpeed, movementJoystick.vector.y * moveSpeed);
             legAnim.SetBool("Moving", true);
         }
         else
         {
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            rigidbody2D.velocity = Vector2.zero;
             legAnim.SetBool("Moving", false);
         }
     }
@@ -91,5 +122,14 @@ public class Player : FiringUnit
 
         Vector3 moveDir = new Vector3(moveX, moveY);
         transform.position += moveDir * moveSpeed * Time.deltaTime;
+    }
+
+    public void Damage(int damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth < 0)
+        {
+            //todo is dead
+        }
     }
 }

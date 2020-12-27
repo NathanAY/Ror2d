@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FiringUnit : MovingUnit
+public class FiringUnit : MonoBehaviour
 {
     public Weapon currentWeapon;
     public bool firing;
@@ -12,7 +12,6 @@ public class FiringUnit : MovingUnit
 
     protected void Update()
     {
-        base.Update();
         Attack();
     }
 

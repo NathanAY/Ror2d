@@ -1,4 +1,4 @@
-﻿/* 
+﻿﻿/* 
     ------------------- Code Monkey -------------------
 
     Thank you for downloading the Code Monkey Utilities
@@ -340,6 +340,18 @@ namespace CodeMonkey.Utils {
         
 
         public static Vector3 GetVectorFromAngle(int angle) {
+            // angle = 0 -> 360
+            float angleRad = angle * (Mathf.PI/180f);
+            return new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
+        }
+        
+        public static Vector3 GetVectorFromAngle(float angle) {
+            // angle = 0 -> 360
+            float angleRad = angle * (Mathf.PI/180f);
+            return new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
+        }
+        
+        public static Vector3 GetVectorFromAngleInt(int angle) {
             // angle = 0 -> 360
             float angleRad = angle * (Mathf.PI/180f);
             return new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
