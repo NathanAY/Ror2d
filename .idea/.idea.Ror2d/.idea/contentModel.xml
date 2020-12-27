@@ -101,6 +101,7 @@
           </e>
           <e p="Game" t="Include">
             <e p="CameraFollow.cs" t="Include" />
+            <e p="EnemySpawnManager.cs" t="Include" />
             <e p="GameHandler.cs" t="Include" />
             <e p="MovementJoystick.cs" t="Include" />
             <e p="Navigate.cs" t="Include" />

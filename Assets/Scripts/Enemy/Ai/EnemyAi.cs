@@ -48,6 +48,9 @@ public class EnemyAi : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        agent.speed = enemy.moveSpeed;
+        agent.angularSpeed = 1200;
+        agent.acceleration = 100;
     }
 
 

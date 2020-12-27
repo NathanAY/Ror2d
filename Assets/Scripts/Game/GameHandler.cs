@@ -2,24 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using CodeMonkey;
-using CodeMonkey.Utils;
-using GridPathfindingSystem;
 
 public class GameHandler : MonoBehaviour
 {
 
-    public static GridPathfinding gridPathfinding;
-    
     public CameraFollow CameraFollow;
     public Transform plyerTransform;
 
     private void Awake()
     {
-        Vector3 pathfindingLowerLeft = transform.Find("PathfindingLowerLeft").position;
-        Vector3 pathfindingUpperRight = transform.Find("PathfindingUpperRight").position;
-        
-        gridPathfinding = new GridPathfinding(pathfindingLowerLeft, pathfindingUpperRight, 5f);
+        // Vector3 pathfindingLowerLeft = transform.Find("PathfindingLowerLeft").position;
+        // Vector3 pathfindingUpperRight = transform.Find("PathfindingUpperRight").position;
     }
 
     private void Start() {

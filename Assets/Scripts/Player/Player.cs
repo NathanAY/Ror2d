@@ -29,9 +29,13 @@ public class Player : MonoBehaviour, IDamageable
     public int damage = 20;
     public float range = 100;
 
-    private void Start()
+    private void Awake()
     {
         Instance = this;
+    }
+
+    private void Start()
+    {
         rigidbody2D = GetComponent<Rigidbody2D>();
         legAnim = transform.GetChild(3).GetComponent<Animator>();
     }

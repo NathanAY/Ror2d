@@ -9,9 +9,10 @@ public class Enemy : MonoBehaviour, IDamageable
     public FiringUnit firingUnit;
     public GameObject bulletPrefab;
     public float range = 100;
-    public int health = 10;
-    public int currentHealth = 10;
+    public int maxHealth = 30;
+    public int currentHealth = 30;
     public Transform firePoint;
+    public int moveSpeed = 25;
 
     
     void Start()
