@@ -12,7 +12,9 @@ public class Enemy : MonoBehaviour, IDamageable
     public int maxHealth = 30;
     public int currentHealth = 30;
     public Transform firePoint;
-    public int moveSpeed = 25;
+    public int moveSpeed = 15;
+    public float fireRate = 2f;
+    public float bulletSpeed = 20f;
 
     
     void Start()
@@ -24,6 +26,7 @@ public class Enemy : MonoBehaviour, IDamageable
     {
         if (currentHealth < 0)
         {
+            EventManager.InvokeOnDeath(transform.position);
             Destroy(gameObject);
         }
     }
@@ -31,10 +34,5 @@ public class Enemy : MonoBehaviour, IDamageable
     public void Damage(int damage)
     {
         currentHealth -= damage;
-    }
-
-    private void OnCollisionEnter(Collision other)
-    {
-        Debug.Log("sdf");
     }
 }

@@ -125,8 +125,8 @@ GameObject:
   - component: {fileID: 136496748486368707}
   - component: {fileID: 136496748486368708}
   - component: {fileID: 136496748486368711}
-  m_Layer: 0
-  m_Name: Stone golem
+  m_Layer: 8
+  m_Name: Stone Golem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -163,7 +163,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -187,10 +187,12 @@ MonoBehaviour:
   bulletPrefab: {fileID: 240148432372682194, guid: 502b6172d4023e1499f0db9472186b75,
     type: 3}
   range: 100
-  health: 100
-  currentHealth: 10
+  maxHealth: 30
+  currentHealth: 30
   firePoint: {fileID: 136496748573114251}
-  moveSpeed: 40
+  moveSpeed: 15
+  fireRate: 2
+  bulletSpeed: 20
 --- !u!114 &136496748486368707
 MonoBehaviour:
   m_ObjectHideFlags: 0

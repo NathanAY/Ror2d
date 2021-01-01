@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,18 +14,219 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b95d26a-6be0-49f6-ac3b-ac5b6fc8fd64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stone Golem.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Shake.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Shake.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/Items.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/Items/Soldier's Syringe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/Items/Soldier's Syringe.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/Items/Surprise Mom Fk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/Items/Surprise Mom Fk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/star.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/Main Camera.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/Main Camera.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/shake.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/shake.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Enemy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Enemy/Enemy.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Enemy/Enemy.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Enemy/idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Enemy/idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/Player.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/Player.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/run.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/run.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Shot Effect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Shot Effect/Shot Effect.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Shot Effect/Shot Effect.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Shot Effect/explod.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Shot Effect/explod.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Death Effect.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Death Effect.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Destroy Effect.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Destroy Effect.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Projectile.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Projectile.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Shot Effect.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Shot Effect.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scenes/Game.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scenes/Game.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Enemy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/PlayerController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/PlayerController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Projectile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Projectile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Weapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Weapon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Characters.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Characters.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Environment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Environment.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Grass.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Particle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Particle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Projectile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Projectile.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New 2D Renderer Data.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New 2D Renderer Data.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NewShaderVariants.shadervariants" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NewShaderVariants.shadervariants.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Death Effect.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Death Effect.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Destroy Effect.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Destroy Effect.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Explosion.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Explosion.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stone Golem.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Surprise Mom Fk.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Surprise Mom Fk.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/pfItemWorld.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/pfItemWorld.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/FireBullet.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/FireBullet.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CameraShake.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CameraShake.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/EventManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/EventManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ItemsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ItemsManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/All.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/All/OnEnemyDeath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/All/OnEnemyDeath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/All/SurpriseMF.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/All/SurpriseMF.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Inventory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/ItemAssets.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/ItemWorld.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/ItemWorldSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/UI_Inventory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TestFunctions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset_Renderer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset_Renderer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imported/nm.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attack.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stone Golem.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stone Golem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stone Golem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materials/DEffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Materials/DEffuse.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materials/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Materials/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/PurpleBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/PurpleBullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/RocketBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/RocketBullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/NavMesh-NavNesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/NavMesh-NavNesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/NavMesh-NavNesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/NavMesh-NavNesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attack/BulletMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attack/BulletMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Ai/EnemyAi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Ai/EnemyAi.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/EnemySpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/EnemySpawnManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Navigate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builds/Ror2d.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Ror2d.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +236,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Develop" />
+        <entry key="$PROJECT_DIR$" value="EnemySpawner" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,42 +254,35 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/65/3533b210/MethodImplAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/ca/9dcb3782/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/0a/55043d44/MethodImplOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/ab/61b19e1e/LayerMask.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06B52E9A-9966-4909-A152-2344E6AC3FEC/e7/2e722d91/Grid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Navigate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Editor/2019.4.16f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/7c/8dddbcc5/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Ror2Cub/Assets/TopDownShooter/Scripts/Enemy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/76/e2bd0eb2/UnassignedReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FCB9DAC8-AE3A-4886-93B0-F4CD5B0DB0BE/e5/c1451f98/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attack/BulletMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/78/79617dcb/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/03/02ec0fbf/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18652B59-14B1-4E07-A740-76A4608F13E3/60/2ef8c8ab/Input.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/76DB40A9-3869-4C62-906F-9BBB72DB1A18/a1/af88ec48/NavMeshAgent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TextMeshProUGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/78/f263a934/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestFunctions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Ai/EnemyAi.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMP_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/29AD182F-AA3F-478C-9310-D6A2E7143C15/18/206b2f08/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MovementJoystick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PurpleBullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttackManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletMovement.cs" />
@@ -110,12 +307,33 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Attack/Weapon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Attack/IDamageble.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Attack/IDamageable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Attack/BulletMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/common/Soldier's Syringe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/common/SoldiersSyringe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TestFunctions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/PickedItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemOld.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/picked/SoldiersSyringe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/picked/SurpriseMF.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/Inventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/EventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemWorld.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemWorldSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/ItemsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/All/OnEnemyDeath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/ItemAssets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/EnemySpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Attack/BulletMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game/CameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/All/SurpriseMF.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Ai/EnemyAi.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item/UI_Inventory.cs" />
       </list>
     </option>
   </component>
@@ -129,12 +347,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34940413" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="XThreadsFramesViewSplitterKey" value="0.5007752" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -147,10 +364,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11496">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="11496" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -176,6 +393,11 @@
       <workItem from="1608992570870" duration="6324000" />
       <workItem from="1609016399409" duration="5179000" />
       <workItem from="1609061206372" duration="16618000" />
+      <workItem from="1609251562517" duration="11232000" />
+      <workItem from="1609356928720" duration="13939000" />
+      <workItem from="1609401234059" duration="26947000" />
+      <workItem from="1609433579280" duration="1018000" />
+      <workItem from="1609509704165" duration="2160000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607891339321</created>
@@ -254,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608411512981</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add enemy spawner">
+      <created>1609093564427</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609093564427</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,19 +514,25 @@
     <MESSAGE value="cm" />
     <MESSAGE value="Add gitignore folder. Update scene" />
     <MESSAGE value="Set max fps to 120 at Unity Editor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set max fps to 120 at Unity Editor" />
+    <MESSAGE value="Add enemy spawner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add enemy spawner" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2473" y="510" width="933" height="592" key="#xdebugger.evaluate" timestamp="1609092155637">
-      <screen x="1920" y="0" width="1920" height="1160" />
+    <state x="757" y="238" width="963" height="703" key="#xdebugger.evaluate" timestamp="1609433387748">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="996" y="458" width="490" height="582" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609091252620" />
-    <state x="2473" y="510" width="933" height="592" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092155637" />
+    <state x="757" y="238" width="963" height="703" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609433387748" />
+    <state x="2473" y="510" width="933" height="592" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609424350993" />
     <state x="81" y="143" width="1596" height="988" key="CommitChangelistDialog2" timestamp="1609088412212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="81" y="143" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088412212" />
     <state x="2001" y="159" width="1596" height="988" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608411512461" />
+    <state width="798" height="416" key="DebuggerActiveHint" timestamp="1609424444671">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="798" height="416" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609424444671" />
+    <state width="798" height="464" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609409498552" />
     <state x="110" y="38" width="1736" height="976" key="DiffContextDialog" timestamp="1609066842008">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,86 +549,90 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2536" y="258" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1607891092582" />
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom" timestamp="1609092449789">
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.0.center" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063051" />
+    <state width="1877" height="322" key="GridCell.Tab.0.left" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063051" />
+    <state width="1877" height="322" key="GridCell.Tab.0.right" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.1.bottom" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.1.center" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.1.left" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.1.right" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.2.bottom" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.2.center" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.2.left" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.2.right" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.3.bottom" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063053" />
+    <state width="1877" height="322" key="GridCell.Tab.3.center" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063053" />
+    <state width="1877" height="322" key="GridCell.Tab.3.left" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063052" />
+    <state width="1877" height="322" key="GridCell.Tab.3.right" timestamp="1609434602191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609434602191" />
+    <state width="938" height="322" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609418063053" />
+    <state x="2714" y="296" key="RiderGenerateDialog" timestamp="1609423269635">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371257" />
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449789" />
-    <state width="1877" height="365" key="GridCell.Tab.0.center" timestamp="1609092449789">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371257" />
-    <state width="1877" height="365" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449789" />
-    <state width="1877" height="365" key="GridCell.Tab.0.left" timestamp="1609092449789">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371257" />
-    <state width="1877" height="365" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449789" />
-    <state width="1877" height="365" key="GridCell.Tab.0.right" timestamp="1609092449789">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371257" />
-    <state width="1877" height="365" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449789" />
-    <state width="1877" height="365" key="GridCell.Tab.1.bottom" timestamp="1609092451018">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371258" />
-    <state width="1877" height="365" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092451018" />
-    <state width="1877" height="365" key="GridCell.Tab.1.center" timestamp="1609092451018">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371258" />
-    <state width="1877" height="365" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092451018" />
-    <state width="1877" height="365" key="GridCell.Tab.1.left" timestamp="1609092451018">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371257" />
-    <state width="1877" height="365" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092451018" />
-    <state width="1877" height="365" key="GridCell.Tab.1.right" timestamp="1609092451018">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371258" />
-    <state width="1877" height="365" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092451018" />
-    <state width="1877" height="365" key="GridCell.Tab.2.bottom" timestamp="1609092449571">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371258" />
-    <state width="1877" height="365" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449571" />
-    <state width="1877" height="365" key="GridCell.Tab.2.center" timestamp="1609092449570">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371258" />
-    <state width="1877" height="365" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449570" />
-    <state width="1877" height="365" key="GridCell.Tab.2.left" timestamp="1609092449570">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371258" />
-    <state width="1877" height="365" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449570" />
-    <state width="1877" height="365" key="GridCell.Tab.2.right" timestamp="1609092449571">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371258" />
-    <state width="1877" height="365" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449571" />
-    <state width="1877" height="365" key="GridCell.Tab.3.bottom" timestamp="1609092449571">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371259" />
-    <state width="1877" height="365" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449571" />
-    <state width="1877" height="365" key="GridCell.Tab.3.center" timestamp="1609092449571">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371258" />
-    <state width="1877" height="365" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449571" />
-    <state width="1877" height="365" key="GridCell.Tab.3.left" timestamp="1609092449571">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371258" />
-    <state width="1877" height="365" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449571" />
-    <state width="1877" height="365" key="GridCell.Tab.3.right" timestamp="1609092449571">
-      <screen x="1920" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088371258" />
-    <state width="1877" height="365" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609092449571" />
+    <state x="2714" y="296" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609423269635" />
     <state x="2381" y="225" key="SettingsEditor" timestamp="1607790362015">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
@@ -411,6 +650,10 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2490" y="315" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608408659791" />
+    <state width="968" height="588" key="XDebugger.FullValuePopup" timestamp="1609259847628">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state width="968" height="588" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609259847628" />
     <state x="2718" y="315" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1607891268547">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
@@ -419,14 +662,15 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2697" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608408890902" />
-    <state x="498" y="152" width="1081" height="755" key="find.popup" timestamp="1609005232490">
+    <state x="498" y="152" width="1081" height="755" key="find.popup" timestamp="1609511690985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="498" y="152" width="1081" height="755" key="find.popup/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609005232490" />
-    <state x="2558" y="313" width="644" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608483754510" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609024816891">
+    <state x="498" y="152" width="1081" height="755" key="find.popup/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609511690985" />
+    <state x="2558" y="313" width="686" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609417327547" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609510811667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609024816891" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609510811667" />
+    <state x="2543" y="251" width="672" height="757" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609422805026" />
   </component>
 </project>

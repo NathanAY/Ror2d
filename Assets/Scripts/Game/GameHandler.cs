@@ -19,8 +19,9 @@ public class GameHandler : MonoBehaviour
         CameraFollow.Setup(() => plyerTransform.position);
         Debug.Log("GameHandler.Start");
 
+        QualitySettings.vSyncCount = 0;
         #if UNITY_EDITOR
-                QualitySettings.vSyncCount = 0;  // VSync must be disabled
+                  // VSync must be disabled
                 Application.targetFrameRate = 40; // targetFrameRate 60 = 120 fps
         #endif
         // int i = 0;

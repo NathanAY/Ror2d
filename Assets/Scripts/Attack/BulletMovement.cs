@@ -6,12 +6,13 @@ using UnityEngine;
 public class BulletMovement : MonoBehaviour
 {
 
-    public float speed = 20;
+    public float Speed { get; set;} = 20;
     private float range;
     private Vector3 shootDir;
     private float proccedRange = 0;
     public int damage = 10;
-
+    public GameObject destroyEffect;
+    
     public void SetupDirection(Vector3 startingPoint, Vector3 targetPoint, float range)
     {
         this.range = range;
@@ -22,8 +23,8 @@ public class BulletMovement : MonoBehaviour
     
     void Update()
     {
-        transform.position += shootDir * speed * Time.deltaTime;
-        proccedRange += speed * Time.deltaTime;
+        transform.position += shootDir * Speed * Time.deltaTime;
+        proccedRange += Speed * Time.deltaTime;
         CheckToDestroy();
     }
 
@@ -31,7 +32,11 @@ public class BulletMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         IDamageable damageable = other.gameObject.GetComponent<IDamageable>();
-        damageable?.Damage(damage);
+        if (damageable != null)
+        {
+            damageable.Damage(damage);
+            DestroyProjectile();
+        }
     }
     
     private float CalculateEulerAngles(Vector3 dir)
@@ -46,7 +51,16 @@ public class BulletMovement : MonoBehaviour
     {
         if (proccedRange > range)
         {
-            Destroy(this.gameObject);
+            DestroyProjectile();
         }
+    }
+
+    private void DestroyProjectile()
+    {
+        if (destroyEffect != null)
+        {
+            Instantiate(destroyEffect, transform.position, Quaternion.identity);    
+        }
+        Destroy(gameObject);
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour, IDamageable
@@ -20,24 +21,35 @@ public class Player : MonoBehaviour, IDamageable
     public bool firing;
 
     private bool canShoot = true;
-    private Rigidbody2D rigidbody2D;
+    private new Rigidbody2D rigidbody2D;
     private Animator legAnim;
     private float nextTimeOfFire = 0;//todo move to manager
     
     public GameObject bulletPrefab;
-    public float fireRate = 1;
-    public int damage = 20;
-    public float range = 100;
+    public static float baseFireRate = 2;
+    public float fireRate = baseFireRate;
+    public int damage = 5;
+    public float range = 300;
+    public float bullerSpeed = 40;
+
+    public UI_Inventory uiInventory;
+    public Inventory Inventory { get; set; }
+
 
     private void Awake()
     {
         Instance = this;
+        Inventory = new Inventory();
+        uiInventory.SetPlayer(this);
+        uiInventory.SetInventory(Inventory);
     }
 
     private void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         legAnim = transform.GetChild(3).GetComponent<Animator>();
+        EventManager.OnDeath += TriggerOnEnemyDeathEvent;
+        Inventory.OnItemListChanged += recalculateStats;
     }
 
     void Update()
@@ -68,8 +80,9 @@ public class Player : MonoBehaviour, IDamageable
     
     private void CreateBullet(Transform startPosition, Transform targetPosition)
     {
-        GameObject bullet = Instantiate(bulletPrefab, startPosition.transform.position, Quaternion.identity);
-        bullet.GetComponent<BulletMovement>().SetupDirection(startPosition.transform.position, targetPosition.transform.position, range);
+        BulletMovement bullet = Instantiate(bulletPrefab, startPosition.transform.position, Quaternion.identity).GetComponent<BulletMovement>();
+        bullet.SetupDirection(startPosition.transform.position, targetPosition.transform.position, range);
+        bullet.Speed = bullerSpeed;
     }
     
     private void Rotation()
@@ -103,29 +116,25 @@ public class Player : MonoBehaviour, IDamageable
     {
         float moveX = 0f;
         float moveY = 0f;
-
         if (Input.GetKey(KeyCode.W))
         {
             moveY = +1f;
         }
-
         if (Input.GetKey(KeyCode.S))
         {
             moveY = -1f;
         }
-
         if (Input.GetKey(KeyCode.A))
         {
             moveX = -1f;
         }
-
         if (Input.GetKey(KeyCode.D))
         {
             moveX = +1f;
         }
-
         Vector3 moveDir = new Vector3(moveX, moveY);
         transform.position += moveDir * moveSpeed * Time.deltaTime;
+        // rigidbody2D.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
     }
 
     public void Damage(int damage)
@@ -134,6 +143,39 @@ public class Player : MonoBehaviour, IDamageable
         if (currentHealth < 0)
         {
             //todo is dead
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        ItemWorld itemWorld = other.GetComponent<ItemWorld>();
+        if (itemWorld != null)
+        {
+            Inventory.AddItem(itemWorld.GetItem());
+            itemWorld.DestroySelf();
+        }
+    }
+    
+    private void recalculateStats(object sender, EventArgs e)
+    {
+        foreach (Item item in Inventory.GetItemList())
+        {
+            if (item.itemType.Equals(Item.ItemType.SoldiersSyringe))
+            {
+                int amount = item.amount;
+                fireRate = (float) (baseFireRate + baseFireRate * 0.15 * amount);
+            }
+        }
+    }
+    
+    private void TriggerOnEnemyDeathEvent(Vector3 deathPosition)
+    {
+        foreach (Item item in Inventory.GetItemList())
+        {
+            if (item.itemType.Equals(Item.ItemType.SurpriseMF))
+            {
+                ItemAssets.Instance.surpriseMf.GetComponent<OnEnemyDeathTrigger>().OnEnemyDeathTrigger(gameObject, deathPosition);
+            }
         }
     }
 }

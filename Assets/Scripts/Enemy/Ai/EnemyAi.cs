@@ -82,8 +82,7 @@ public class EnemyAi : MonoBehaviour
                         {
                             CreateBullet(enemy.firePoint, Player.Instance.transform);
                         }
-                        float fireRate = .15f;
-                        nextShootTime = Time.time + fireRate;
+                        nextShootTime = Time.time + 1 / enemy.fireRate;
                     }
                 }
                 if (Vector3.Distance(transform.position, Player.Instance.transform.position) > viewRange)
@@ -105,8 +104,9 @@ public class EnemyAi : MonoBehaviour
 
     private void CreateBullet(Transform startPosition, Transform targetPosition)
     {
-        GameObject bullet = Instantiate(enemy.bulletPrefab, startPosition.transform.position, Quaternion.identity);
-        bullet.GetComponent<BulletMovement>().SetupDirection(startPosition.transform.position, targetPosition.transform.position, enemy.range);
+        BulletMovement bullet = Instantiate(enemy.bulletPrefab, startPosition.transform.position, Quaternion.identity).GetComponent<BulletMovement>();
+        bullet.SetupDirection(startPosition.transform.position, targetPosition.transform.position, enemy.range);
+        bullet.Speed = enemy.bulletSpeed;
     }
     
     private void MoveToPosition(Vector3 position)
@@ -115,7 +115,7 @@ public class EnemyAi : MonoBehaviour
         Vector3 direction = position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         rb.rotation = angle + 90;
-        Debug.DrawLine(transform.position, position);
+        // Debug.DrawLine(transform.position, position);
     }
     
     private Vector3 GetRoamingPosition()

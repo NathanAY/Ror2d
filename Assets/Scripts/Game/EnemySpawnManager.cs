@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class EnemySpawnManager : MonoBehaviour
 {
-
     public GameObject stoneGolem;
     private Player _player;
-    
+
     void Start()
     {
         _player = Player.Instance;
@@ -16,8 +15,7 @@ public class EnemySpawnManager : MonoBehaviour
     
     private void SpawnEnemy()
     {
-        int range = Random.Range(10, 150);
-        Instantiate(stoneGolem, _player.transform.position + new Vector3(range, range, 0), Quaternion.identity);
+        Instantiate(stoneGolem, _player.transform.position + new Vector3(Random.Range(-150, 150), Random.Range(-150, 150), 0), Quaternion.identity);
         Invoke("SpawnEnemy", Random.Range(1, 5));
-    } 
+    }
 }
