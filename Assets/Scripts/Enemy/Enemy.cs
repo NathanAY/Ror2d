@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour, IDamageable
 {
-    
-    public FiringUnit firingUnit;
+   
     public GameObject bulletPrefab;
     public float range = 100;
     public int maxHealth = 30;
@@ -19,7 +18,7 @@ public class Enemy : MonoBehaviour, IDamageable
     
     void Start()
     {
-        firingUnit = GetComponent<FiringUnit>();
+
     }
 
     void Update()

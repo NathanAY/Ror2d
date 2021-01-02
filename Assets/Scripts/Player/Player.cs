@@ -30,10 +30,12 @@ public class Player : MonoBehaviour, IDamageable
     public float fireRate = baseFireRate;
     public int damage = 5;
     public float range = 300;
-    public float bullerSpeed = 40;
+    public float bulletSpeed = 40;
 
     public UI_Inventory uiInventory;
     public Inventory Inventory { get; set; }
+
+    protected List<AttackModifier> attackModifiers = new List<AttackModifier> { new TripleShooting() };
 
 
     private void Awake()
@@ -76,13 +78,15 @@ public class Player : MonoBehaviour, IDamageable
         }
     }
 
-    
-    
     private void CreateBullet(Transform startPosition, Transform targetPosition)
     {
         BulletMovement bullet = Instantiate(bulletPrefab, startPosition.transform.position, Quaternion.identity).GetComponent<BulletMovement>();
+        foreach (var attackModifier in attackModifiers)
+        {
+            attackModifier.ApplyModifier(startPosition, targetPosition, bulletPrefab, range, bulletSpeed);
+        }
         bullet.SetupDirection(startPosition.transform.position, targetPosition.transform.position, range);
-        bullet.Speed = bullerSpeed;
+        bullet.Speed = bulletSpeed;
     }
     
     private void Rotation()

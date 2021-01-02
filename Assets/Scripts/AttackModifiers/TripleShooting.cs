@@ -9,13 +9,16 @@ public class TripleShooting : AttackModifier
         id = 1;
     }
     
-    public override void ApplyModifier(GameObject firePoint, GameObject direction, GameObject bulletPrefab, float range)
+    public override void ApplyModifier(Transform firePoint, Transform direction, GameObject bulletPrefab, float range, float bulletSpeed)
     {
         var angle = 60;
         for (int i = 0; i < 2; i++)
         {
-            GameObject bullet = MonoBehaviour.Instantiate(bulletPrefab, firePoint.transform.position, Quaternion.identity);
-            bullet.GetComponent<BulletMovement>().SetupDirection(firePoint.transform.position, new Vector3(direction.transform.position.x + angle, direction.transform.position.y, direction.transform.position.z), range);
+            GameObject bullet = MonoBehaviour.Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+            var bulletMovement = bullet.GetComponent<BulletMovement>();
+            bulletMovement.SetupDirection(firePoint.position,
+                new Vector3(direction.position.x + angle, direction.position.y, direction.position.z), range);
+            bulletMovement.Speed = bulletSpeed;
             angle = angle * -1;
         }
     }

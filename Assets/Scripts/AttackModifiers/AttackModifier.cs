@@ -6,5 +6,5 @@ public abstract class AttackModifier
 {
     public int id;
 
-    public abstract void ApplyModifier(GameObject firePoint, GameObject direction, GameObject bulletPrefab, float range);
+    public abstract void ApplyModifier(Transform firePoint, Transform direction, GameObject bulletPrefab, float range, float bulletSpeed);
 }
