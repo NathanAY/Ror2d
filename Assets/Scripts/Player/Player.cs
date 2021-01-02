@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
@@ -9,21 +7,25 @@ public class Player : MonoBehaviour, IDamageable
 {
 
     public static Player Instance { get; private set; }
-    public MovementJoystick movementJoystick;
-    public MovementJoystick shootJoystick;
+
+    public VariableJoystick moveJoystick;
+    public VariableJoystick shootJoystick;
+    
+    private Vector2 moveVelocity;
+    
+    private new Rigidbody2D rigidbody2D;
+    private Animator legAnim;
     public Transform firePoint;
     public Transform aimPoint;
+
     public int maxHealth = 50;
     public int currentHealth = 50;
     
     public float moveSpeed = 40;
     public float rotationSpeed = 5;
-    public bool firing;
 
     private bool canShoot = true;
-    private new Rigidbody2D rigidbody2D;
-    private Animator legAnim;
-    private float nextTimeOfFire = 0;//todo move to manager
+    private float nextTimeOfFire;
     
     public GameObject bulletPrefab;
     public static float baseFireRate = 2;
@@ -56,6 +58,7 @@ public class Player : MonoBehaviour, IDamageable
     {
         Rotation();
         Attack();
+        UpdateControl();
     }
 
     void FixedUpdate()
@@ -64,9 +67,22 @@ public class Player : MonoBehaviour, IDamageable
         HandleMovement();
     }
 
+    private void UpdateControl()
+    {
+        if (moveJoystick.Direction != Vector2.zero)
+        {
+            legAnim.SetBool("Moving", true);
+        }
+        else
+        {
+            legAnim.SetBool("Moving", false);
+        }
+        moveVelocity = moveJoystick.Direction * moveSpeed;
+    }
+
     private void Attack()
     {
-        if (firing && Input.GetMouseButton(0) && canShoot)
+        if (canShoot && shootJoystick.Direction != Vector2.zero)
         {
             if (Time.time >= nextTimeOfFire)
             {
@@ -76,39 +92,31 @@ public class Player : MonoBehaviour, IDamageable
         }
     }
 
-    
-    
     private void CreateBullet(Transform startPosition, Transform targetPosition)
     {
         BulletMovement bullet = Instantiate(bulletPrefab, startPosition.transform.position, Quaternion.identity).GetComponent<BulletMovement>();
         bullet.SetupDirection(startPosition.transform.position, targetPosition.transform.position, range);
         bullet.Speed = bullerSpeed;
+        SoundManager.instance.Play("shoot");
     }
     
     private void Rotation()
     {
         Vector2 dir = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg + 90;
-        if (shootJoystick.vector != Vector2.zero)
+        if (shootJoystick.Direction != Vector2.zero)
         {
-            angle = Mathf.Atan2(shootJoystick.vector.y, shootJoystick.vector.x) * Mathf.Rad2Deg + 90;
+            angle = Mathf.Atan2(shootJoystick.Vertical, shootJoystick.Horizontal) * Mathf.Rad2Deg + 90;
         }
-
         Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotationSpeed * Time.deltaTime);
     }
 
     private void JoystickMovement()
     {
-        if (movementJoystick.vector.y != 0)
+        if (moveVelocity != Vector2.zero)
         {
-            rigidbody2D.velocity = new Vector2(movementJoystick.vector.x * moveSpeed, movementJoystick.vector.y * moveSpeed);
-            legAnim.SetBool("Moving", true);
-        }
-        else
-        {
-            rigidbody2D.velocity = Vector2.zero;
-            legAnim.SetBool("Moving", false);
+            rigidbody2D.MovePosition(rigidbody2D.position + moveVelocity * Time.fixedDeltaTime);    
         }
     }
 
@@ -132,9 +140,7 @@ public class Player : MonoBehaviour, IDamageable
         {
             moveX = +1f;
         }
-        Vector3 moveDir = new Vector3(moveX, moveY);
-        transform.position += moveDir * moveSpeed * Time.deltaTime;
-        // rigidbody2D.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
+        rigidbody2D.velocity = new Vector2(moveX, moveY) * moveSpeed;
     }
 
     public void Damage(int damage)

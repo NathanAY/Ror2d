@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e835f97b3a2cc3149a8ffddc95385e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionEffect: {fileID: 1047211560929470151, guid: 878e18b3e2050ca408fd78a6600db3e8,
+  explosionEffect: {fileID: 1110264763428426, guid: eba5404b7a4399d48bd7b9eb478283fe,
     type: 3}
   layerMask:
     serializedVersion: 2

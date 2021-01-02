@@ -8,22 +8,10 @@ public class TestFunctions : MonoBehaviour
     public GameObject test;
     public int param1 = 30;
     
-    
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
-    
     public void TestLeft()
     {
-        test.GetComponent<Rigidbody2D>().AddForce(new Vector2(0 - param1, 0));
+        Inventory inventory = Player.Instance.Inventory;
+        inventory.AddItem(new Item(){itemType = Item.ItemType.SurpriseMF, amount = 1});
     }
 
     public void TestRight()

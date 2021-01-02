@@ -28,15 +28,22 @@ public class BulletMovement : MonoBehaviour
         CheckToDestroy();
     }
 
-   
     private void OnTriggerEnter2D(Collider2D other)
     {
         IDamageable damageable = other.gameObject.GetComponent<IDamageable>();
         if (damageable != null)
         {
             damageable.Damage(damage);
-            DestroyProjectile();
         }
+        else
+        {
+            ItemWorld item = other.gameObject.GetComponent<ItemWorld>();
+            if (item != null)
+            {
+                return;
+            }
+        }
+        DestroyProjectile();
     }
     
     private float CalculateEulerAngles(Vector3 dir)
@@ -59,7 +66,8 @@ public class BulletMovement : MonoBehaviour
     {
         if (destroyEffect != null)
         {
-            Instantiate(destroyEffect, transform.position, Quaternion.identity);    
+            GameObject explosion =  Instantiate(destroyEffect, transform.position, Quaternion.identity).gameObject;
+            Destroy(explosion, 1);
         }
         Destroy(gameObject);
     }

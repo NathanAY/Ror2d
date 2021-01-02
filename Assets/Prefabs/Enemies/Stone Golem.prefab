@@ -191,8 +191,8 @@ MonoBehaviour:
   currentHealth: 30
   firePoint: {fileID: 136496748573114251}
   moveSpeed: 15
-  fireRate: 2
-  bulletSpeed: 20
+  fireRate: 0.5
+  bulletSpeed: 50
 --- !u!114 &136496748486368707
 MonoBehaviour:
   m_ObjectHideFlags: 0

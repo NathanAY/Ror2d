@@ -17,7 +17,6 @@ public class EnemyAi : MonoBehaviour
     }
 
 
-    // private EnemyPathfindingMovement pathfindingMovement;
     private Vector3 startingPosition;
     private Vector3 roamPosition;
     private float nextShootTime;
@@ -34,7 +33,6 @@ public class EnemyAi : MonoBehaviour
     
     private void Awake()
     {
-        // pathfindingMovement = GetComponent<EnemyPathfindingMovement>();
         state = State.Roaming;
         enemy = GetComponent<Enemy>();
     }
@@ -73,11 +71,6 @@ public class EnemyAi : MonoBehaviour
                 {
                     if (Time.time > nextShootTime)
                     {
-                        // pathfindingMovement.StopMoving();
-                        // state = State.ShootingTarget;
-                        // aimShootAnims.ShootTarget(Player.Instance.transform.position, () => {
-                        // state = State.ChaseTarget;
-                        // });
                         if (Vector3.Distance(transform.position, Player.Instance.transform.position) < attackRange)
                         {
                             CreateBullet(enemy.firePoint, Player.Instance.transform);

@@ -9,18 +9,12 @@ public class SurpriseMF : MonoBehaviour, OnEnemyDeathTrigger
     public GameObject explosionEffect;
     public LayerMask layerMask;
     public int force = 300;
-    // private CameraShake shake;
 
     public void Awake()
     {
         layerMask = LayerMask.GetMask("Enemy");
     }
-
-    public void Start()
-    {
-        // shake = GameObject.Find("GameHandler").GetComponent<CameraShake>();
-    }
-
+    
     public void OnEnemyDeathTrigger(GameObject whoKill, Vector3 whereDied)
     {
         Player player = whoKill.GetComponent<Player>();
@@ -39,15 +33,6 @@ public class SurpriseMF : MonoBehaviour, OnEnemyDeathTrigger
     private void CreateExplosion(Vector3 position, int radius, int damage)
     {
         CreateEffect(position, radius);
-        // if (shake == null)
-        // {
-        //     shake = GameObject.Find("GameHandler").GetComponent<CameraShake>();
-        //     if (shake != null)
-        //     {
-        //         shake.CamShake();
-        //     }
-        // }
-        
         Collider2D[] objects = Physics2D.OverlapCircleAll(position, radius, layerMask);
         foreach (Collider2D o in objects)
         {
