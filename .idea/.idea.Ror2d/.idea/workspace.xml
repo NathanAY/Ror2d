@@ -14,219 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b95d26a-6be0-49f6-ac3b-ac5b6fc8fd64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Main Camera.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Main Camera.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Shake.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Shake.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Items.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Items/Soldier's Syringe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Items/Soldier's Syringe.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Items/Surprise Mom Fk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/Items/Surprise Mom Fk.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/star.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/Main Camera.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/Main Camera.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/shake.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Camera/shake.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Enemy/Enemy.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Enemy/Enemy.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Enemy/idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Enemy/idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/Player.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/Player.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/run.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Player/run.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Shot Effect.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Shot Effect/Shot Effect.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Shot Effect/Shot Effect.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Shot Effect/explod.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Animations/Shot Effect/explod.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Death Effect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Death Effect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Destroy Effect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Destroy Effect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Projectile.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Projectile.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Shot Effect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Prefabs/Shot Effect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scenes/Game.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scenes/Game.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Enemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Enemy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/PlayerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/PlayerController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Projectile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Projectile.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Weapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Scripts/Weapon.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Characters.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Characters.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Environment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Environment.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Grass.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Particle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Particle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Projectile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Imported/2dShotBlackthorn/Sprites/Projectile.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New 2D Renderer Data.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New 2D Renderer Data.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NewShaderVariants.shadervariants" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/NewShaderVariants.shadervariants.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Death Effect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Death Effect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Destroy Effect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Destroy Effect.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Explosion.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Explosion.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stone Golem.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Surprise Mom Fk.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/Surprise Mom Fk.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/pfItemWorld.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Items/pfItemWorld.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/FireBullet.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/FireBullet.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CameraShake.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CameraShake.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/EventManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/EventManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ItemsManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/ItemsManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/All.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/All/OnEnemyDeath.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/All/OnEnemyDeath.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/All/SurpriseMF.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/All/SurpriseMF.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Inventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/ItemAssets.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/ItemWorld.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/ItemWorldSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Item/UI_Inventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TestFunctions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset_Renderer.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset_Renderer.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ror2d/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stone Golem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Stone Golem.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materials/DEffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Materials/DEffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materials/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Materials/New Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/PurpleBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/PurpleBullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/RocketBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weaponary/Bullets/RocketBullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Effects/Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Effects/Explosion.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/NavMesh-NavNesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/NavMesh-NavNesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene/NavMesh-NavNesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene/NavMesh-NavNesh.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attack/BulletMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attack/BulletMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Ai/EnemyAi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Ai/EnemyAi.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/EnemySpawnManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/EnemySpawnManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/GameHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/GameHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Builds/Ror2d.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Builds/Ror2d.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,6 +191,7 @@
       <workItem from="1609401234059" duration="26947000" />
       <workItem from="1609433579280" duration="1018000" />
       <workItem from="1609509704165" duration="2160000" />
+      <workItem from="1609537091928" duration="1507000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607891339321</created>
@@ -483,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609093564427</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add item system">
+      <created>1609537249115</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609537249115</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +316,8 @@
     <MESSAGE value="Add gitignore folder. Update scene" />
     <MESSAGE value="Set max fps to 120 at Unity Editor" />
     <MESSAGE value="Add enemy spawner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add enemy spawner" />
+    <MESSAGE value="Add item system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add item system" />
   </component>
   <component name="WindowStateProjectService">
     <state x="757" y="238" width="963" height="703" key="#xdebugger.evaluate" timestamp="1609433387748">
@@ -523,10 +325,10 @@
     </state>
     <state x="757" y="238" width="963" height="703" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609433387748" />
     <state x="2473" y="510" width="933" height="592" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1609424350993" />
-    <state x="81" y="143" width="1596" height="988" key="CommitChangelistDialog2" timestamp="1609088412212">
+    <state x="81" y="143" width="1596" height="988" key="CommitChangelistDialog2" timestamp="1609546607049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="81" y="143" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609088412212" />
+    <state x="81" y="143" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609546607049" />
     <state x="2001" y="159" width="1596" height="988" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608411512461" />
     <state width="798" height="416" key="DebuggerActiveHint" timestamp="1609424444671">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -641,10 +443,10 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2727" y="493" key="VCS.ChangelistChooser/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608405408511" />
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1609089623698">
+    <state x="814" y="71" key="Vcs.Push.Dialog.v2" timestamp="1609537261961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609089623698" />
+    <state x="814" y="71" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@0.0.1920.1040" timestamp="1609537261961" />
     <state x="2472" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1160/1380.-1024.1280.984@1920.0.1920.1160" timestamp="1608411803089" />
     <state x="2490" y="315" key="VcsDiffUtil.ChangesDialog" timestamp="1608408659791">
       <screen x="1920" y="0" width="1920" height="1160" />
